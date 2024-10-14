@@ -1,0 +1,260 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background-image:url('./Images/background.jpg');
+	background-repeat:repeat;
+	background-size:cover;
+}
+
+header
+{
+	position: relative;
+	width:1000px;
+	height:75px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	top: 70px;
+	left: 0px;
+
+}
+
+#Logo
+{
+	position:absolute;
+	transition: transform 1,01;
+	display:block;
+	left:350px;
+	margin-top: auto;
+	
+}
+
+#Logo:hover
+{
+transform: scale(1.01)
+
+
+}
+
+#MenuWrapper
+{
+	position:absolute;
+	width: 100%;
+	height: 50px;
+	Background-color: black;
+	top:0px;
+}
+
+#MainWrapper
+{
+	width:1000px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#Banner
+{
+	position: absolute;
+	background-image:url('./images/header.jpg');
+	width: 1000px;
+	height: 140px;
+	top:160px;
+
+}
+
+nav
+{
+	position:absolute;
+	width: 1000px;
+	height: 36px;
+	Background-color: black;
+	margin-left:auto;
+	margin-right:auto;
+	top: 0px;
+	left: 300px;
+}
+
+main
+{
+	position:absolute;
+	width: 960px;
+	min-height:360px;
+	padding:20px;
+	Background-color: white;
+	margin-bottom:10px;
+	top:275px;
+
+}
+
+/* Menu Styles */
+
+#menu
+{
+	padding:0px;
+}
+
+#menu li
+{
+	display:inline;
+}
+
+#menu li a
+{
+	position:relative;
+	
+	transition: transform 1.01;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration: none;
+	float:left;
+	padding:10px;
+	background-color: #000000;
+	color:#993300;
+	border-bottom:1px;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+}
+
+#menu li a:hover
+{
+	background-color:#575250;
+	padding-bottom:15px;
+	border-bottom:2px;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	margin:0px;
+	transform: scale(1.2);
+}
+
+
+
+#list{
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	
+}
+
+#list td, #list th  {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#list tr:nth-child(even){background-color:#f2f2f2;}
+
+#list tr:hover {background-color: #ddd}
+
+#list th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #993300;
+color:white;
+
+}
+
+.Title {
+
+font-size: large;
+font-weight: bold;
+
+
+}
+
+.reserveer{
+
+background-color: #993300;
+padding: 10px 15px;
+
+
+}
+
+.reserveer a{
+
+	color: white;
+}
+
+
+.login {
+margin-left: 377px;
+font-size:30px ;
+font-family:'Courier New', Courier, monospace
+}
+
+.gebruikersnaam1 {
+	margin-left:370px;
+	font-size: large;
+	font-family:'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+.wachtwoord1 {
+	margin-left: 390px;
+	font-size: large;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+input[name=Inloggen]{
+  margin-left:390px;
+  background-color:#993300; 
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 7px;
+  border-radius: 10px;
+}
+
+input:hover[name=Inloggen] {
+
+background-color:rgb(188, 79, 79);
+
+}
+
+input[name=Inlognaam]{
+margin-left:365px;
+border-radius:2px;
+
+
+}
+
+input[name=InlogWw]{
+margin-left:365px;
+border-radius:2px;
+}
+
+.Regtext{
+margin-left:240px;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.card2{
+	position:relative;
+	background-color: #8f8885;
+	display:block;
+	margin:10px;
+	border-radius: 20px;	
+}
+
+.card1{
+	position:relative;
+	background-color: rgb(188, 79, 79);
+	display:block;
+	margin:10px;
+	margin-top:50;
+	border-radius:20px;
+	box-shadow: #575250;
+	}
